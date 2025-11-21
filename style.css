@@ -92,18 +92,70 @@ nav button{
 
 .btn{
     padding: 3px 8px;
-    background-color:white;
-    font-weight: bold;
-
+    background-color:rgba(248, 243, 243, 0.021);
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid white;
 }
 
 .btn-red{
     background-color: red;
     color: white;
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 5px 12px;
+    border: none;
+    outline: 0.5 px;
+    font-weight: 400;
 }
+
 
 .btn-red-sm{
-
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
 }
+
+.main input{
+    padding: 5px 12px;
+    outline: none;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);  /* or border: none; */
+    color: white;
+    box-shadow: 0 0 1.5px gray;
+    font-size: 12px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+
+.secImg video {
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    width: 74%;
+    height: 72%;
+    object-fit: cover;
+}
+
+
