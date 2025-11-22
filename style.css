@@ -127,6 +127,7 @@ nav button{
     color: white;
     box-shadow: 0 0 1.5px gray;
     font-size: 12px;
+    border-radius: 4px;
 }
 
 .first{
@@ -158,4 +159,45 @@ nav button{
     object-fit: cover;
 }
 
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
 
+
+.first > div :first-child{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.first > div :nth-child(2){
+    font-size: 6px;
+    font-weight: bolder;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    padding: 4px;
+}
+
+
+.faq h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.faqbox{
+    display: flex;
+    /* font-size: 15px; */
+    background-color: rgb(43, 43, 43);
+    justify-content: space-between;
+    /* justify-items: center; */
+    width: 60vw;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+}
